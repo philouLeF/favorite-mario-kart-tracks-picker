@@ -2,21 +2,21 @@
   {
     "id": "mario-kart-stadium",
     "name": "Mario Kart Stadium",
-    "imageURL": "public/images/tracks/1-mario-kart-stadium.webp"
+    "imageURL": "public/images/tracks/1-mario-kart-stadium.png"
   },
   {
     "id": "water-park",
     "name": "Water Park",
-    "imageURL": "public/images/tracks/2-water-park.webp"
+    "imageURL": "public/images/tracks/2-water-park.png"
   },
   {
     "id": "sweet-sweet-canyon",
     "name": "Sweet Sweet Canyon",
-    "imageURL": "public/images/tracks/3-sweet-sweet-canyon.webp"
+    "imageURL": "public/images/tracks/3-sweet-sweet-canyon.png"
   },
   {
     "id": "thwomp-ruins",
     "name": "Thwomp Ruins",
-    "imageURL": "public/images/tracks/4-thwomp-ruins.webp"
+    "imageURL": "public/images/tracks/4-thwomp-ruins.png"
   }
 ]

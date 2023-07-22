@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import SelectionButton from "./SelectionButton";
-import passImage from "../public/images/random-icon.webp";
+import passImage from "../public/images/pass.png";
 
 type Course = {
   id: string;

@@ -1,27 +1,13 @@
-# React + TypeScript + Vite
+# Favorite Mario Kart 8 Courses Picker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projet qui a pour but principal la mise en pratique de React avec TypeScript et Tailwind
 
-Currently, two official plugins are available:
+Le but est, pour chaque choix proposé, de sélectionner un circuit ou de passer. Ces sélections permettent de définir les circuits préférés de l'utilisateur.ice qui seront afficher dès que l'algorithme aura déduit quelque chose. Cet algorithme donne la possibilité soit de s'arrêter à un moment voulu, soit d'avoir un classement de TOUS les circuits dans l'ordre des préférences.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+L'algorithme de base a été pensé par [antialiasis](https://github.com/antialiasis) et est originellement utilisé dans pour ce [favorite picker](https://www.dragonflycave.com/favorite.html)
 
-## Expanding the ESLint configuration
+Ce projet a eu plusieurs bénéfices :
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Décortiquer et réintroduire un algorithme complexe
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Adapter l'UI à l'univers de Mario Kart 8

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "mario-kart-stadium",
+    "name": "Mario Kart Stadium",
+    "imageURL": "public/images/tracks/1-mario-kart-stadium.webp"
+  },
+  {
+    "id": "water-park",
+    "name": "Water Park",
+    "imageURL": "public/images/tracks/2-water-park.webp"
+  },
+  {
+    "id": "sweet-sweet-canyon",
+    "name": "Sweet Sweet Canyon",
+    "imageURL": "public/images/tracks/3-sweet-sweet-canyon.webp"
+  },
+  {
+    "id": "thwomp-ruins",
+    "name": "Thwomp Ruins",
+    "imageURL": "public/images/tracks/4-thwomp-ruins.webp"
+  }
+]

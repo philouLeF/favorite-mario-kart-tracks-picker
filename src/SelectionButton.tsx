@@ -9,10 +9,7 @@ const SelectionButton: React.FC<ImageButtonProps> = ({
   altText,
   onClick,
 }) => (
-  <button
-    className="p-4 hover:shadow-yellow-500 focus:shadow-yellow-500"
-    onClick={onClick}
-  >
+  <button className="p-4" onClick={onClick}>
     <img className="w-64" src={imageSrc} alt={altText} />
   </button>
 );

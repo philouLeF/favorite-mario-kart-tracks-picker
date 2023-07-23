@@ -23,6 +23,7 @@ const CoursePicker: React.FC<CoursePickerProps> = ({ courses }) => {
   const [eliminatedCourses, setEliminatedCourses] = useState<
     EliminatedCourse[]
   >([]);
+  const [favoriteCourse, setFavoriteCourse] = useState<Course | null>(null);
   // const [favoriteCourses, setFavoriteCourses] = useState<Course[]>([]);
 
   useEffect(() => {
@@ -32,6 +33,23 @@ const CoursePicker: React.FC<CoursePickerProps> = ({ courses }) => {
     }
   }, [courses]);
 
+  const reintroduceEliminatedCourses = (eliminatorId: string) => {
+    const reintroducedCourses = eliminatedCourses.filter(
+      (eliminatedCourse) => eliminatedCourse.eliminatedBy === eliminatorId
+    );
+
+    setEliminatedCourses(
+      eliminatedCourses.filter(
+        (eliminatedCourse) => eliminatedCourse.eliminatedBy !== eliminatorId
+      )
+    );
+
+    setSurvivedCourses([
+      ...survivedCourses,
+      ...reintroducedCourses.map((eliminatedCourse) => eliminatedCourse.course),
+    ]);
+  };
+
   const pickCourse = (pickedCourse: Course) => {
     // Add the picked course to the survived courses
     setSurvivedCourses([...survivedCourses, pickedCourse]);
@@ -40,9 +58,8 @@ const CoursePicker: React.FC<CoursePickerProps> = ({ courses }) => {
     const newCurrentCourses = currentCourses.filter(
       (course) => course.id !== pickedCourse.id
     );
-    setCurrentCourses(newCurrentCourses);
 
-    // Add the remaining current courses to the eliminated courses
+    // Add the remaining current courses to the eliminated courses, with the picked course as the eliminator
     setEliminatedCourses([
       ...eliminatedCourses,
       ...newCurrentCourses.map((course) => ({
@@ -51,12 +68,18 @@ const CoursePicker: React.FC<CoursePickerProps> = ({ courses }) => {
       })),
     ]);
 
+    // Reintroduce any courses that were eliminated by the picked course
+    reintroduceEliminatedCourses(pickedCourse.id);
+
     // Set the next three courses as the current courses
     setCurrentCourses(
       shuffleCourses(
         courses.slice(survivedCourses.length + 1, survivedCourses.length + 4)
       )
     );
+    if (survivedCourses.length + 1 === courses.length) {
+      setFavoriteCourse(pickedCourse);
+    }
   };
 
   const pass = () => {

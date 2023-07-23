@@ -2,16 +2,10 @@
 export default {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {
-      boxShadow: {
-        "inset-yellow": "inset 0 0 0 2px #f59e0b",
-      },
-    },
+    extend: {},
   },
   variants: {
-    extend: {
-      boxShadow: ["hover"],
-    },
+    extend: {},
   },
 
   plugins: [],

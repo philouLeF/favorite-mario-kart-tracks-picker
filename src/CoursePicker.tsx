@@ -24,7 +24,6 @@ const CoursePicker: React.FC<CoursePickerProps> = ({ courses }) => {
     EliminatedCourse[]
   >([]);
   const [favoriteCourse, setFavoriteCourse] = useState<Course | null>(null);
-  // const [favoriteCourses, setFavoriteCourses] = useState<Course[]>([]);
 
   useEffect(() => {
     // Initialize the current courses with the first three shuffled courses
@@ -80,6 +79,33 @@ const CoursePicker: React.FC<CoursePickerProps> = ({ courses }) => {
     if (survivedCourses.length + 1 === courses.length) {
       setFavoriteCourse(pickedCourse);
     }
+
+    const nextCoursesStartIndex = survivedCourses.length + 1;
+    const nextCoursesEndIndex = Math.min(
+      nextCoursesStartIndex + 3,
+      courses.length
+    );
+    setCurrentCourses(
+      shuffleCourses(courses.slice(nextCoursesStartIndex, nextCoursesEndIndex))
+    );
+
+    // Check if the picked course is the last one
+    if (nextCoursesStartIndex === courses.length) {
+      setFavoriteCourse(pickedCourse);
+    }
+
+    // Set the next three courses as the current courses
+    const remainingCourses = courses.filter(
+      (course) =>
+        !survivedCourses.map((c) => c.id).includes(course.id) &&
+        !eliminatedCourses.map((ec) => ec.course.id).includes(course.id)
+    );
+    setCurrentCourses(shuffleCourses(remainingCourses).slice(0, 3));
+
+    // Check if the picked course is the last one
+    if (remainingCourses.length <= 1) {
+      setFavoriteCourse(pickedCourse);
+    }
   };
 
   const pass = () => {
@@ -92,25 +118,43 @@ const CoursePicker: React.FC<CoursePickerProps> = ({ courses }) => {
         courses.slice(survivedCourses.length, survivedCourses.length + 3)
       )
     );
+
+    // Set the next three courses as the current courses
+    const remainingCourses = courses.filter(
+      (course) =>
+        !survivedCourses.map((c) => c.id).includes(course.id) &&
+        !eliminatedCourses.map((ec) => ec.course.id).includes(course.id)
+    );
+    setCurrentCourses(shuffleCourses(remainingCourses).slice(0, 3));
   };
 
   return (
     <div>
-      {currentCourses.map((course) => (
-        // <button key={course.id} onClick={() => pickCourse(course)}>
-        //   <img className="w-32" src={course.imageURL} alt={course.name} />
-        // </button>
-        <SelectionButton
-          key={course.id}
-          imageSrc={course.imageURL}
-          altText={course.name}
-          onClick={() => pickCourse(course)}
-        />
-      ))}
-      {/* <button onClick={pass}>
-        <img src="public\images\random-icon.webp" alt="Pass" />
-      </button> */}
-      <SelectionButton imageSrc={passImage} altText="Pass" onClick={pass} />
+      {favoriteCourse ? (
+        <div>
+          <h2>Votre circuit préféré est :</h2>
+          <SelectionButton
+            key={favoriteCourse.id}
+            imageSrc={favoriteCourse.imageURL}
+            altText={favoriteCourse.name}
+            onClick={() => {}}
+          />
+        </div>
+      ) : currentCourses.length > 0 ? (
+        currentCourses.map((course) => (
+          <SelectionButton
+            key={course.id}
+            imageSrc={course.imageURL}
+            altText={course.name}
+            onClick={() => pickCourse(course)}
+          />
+        ))
+      ) : (
+        <p>Tous les circuits ont été choisis ou passés.</p>
+      )}
+      {!favoriteCourse && (
+        <SelectionButton imageSrc={passImage} altText="Pass" onClick={pass} />
+      )}
     </div>
   );
 };

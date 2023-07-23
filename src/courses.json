@@ -18,5 +18,425 @@
     "id": "thwomp-ruins",
     "name": "Thwomp Ruins",
     "imageURL": "public/images/tracks/4-thwomp-ruins.png"
+  },
+  {
+    "id": "mario-circuit",
+    "name": "Mario Circuit",
+    "imageURL": "public/images/tracks/5-mario-circuit.png"
+  },
+  {
+    "id": "toad-harbour",
+    "name": "Toad Harbour",
+    "imageURL": "public/images/tracks/6-toad-harbour.png"
+  },
+  {
+    "id": "twisted-mansion",
+    "name": "Twisted Mansion",
+    "imageURL": "public/images/tracks/7-twisted-mansion.png"
+  },
+  {
+    "id": "shy-guy-falls",
+    "name": "Shy Guy Falls",
+    "imageURL": "public/images/tracks/8-shy-guy-falls.png"
+  },
+  {
+    "id": "sunshine-airport",
+    "name": "Sunshine Airport",
+    "imageURL": "public/images/tracks/9-sunshine-airport.png"
+  },
+  {
+    "id": "dolphin-shoals",
+    "name": "Dolphin Shoals",
+    "imageURL": "public/images/tracks/10-dolphin-shoals.png"
+  },
+  {
+    "id": "electrodrome",
+    "name": "Electrodrome",
+    "imageURL": "public/images/tracks/11-electrodrome.png"
+  },
+  {
+    "id": "mount-wario",
+    "name": "Mount Wario",
+    "imageURL": "public/images/tracks/12-mount-wario.png"
+  },
+  {
+    "id": "cloudtop-cruise",
+    "name": "Cloudtop Cruise",
+    "imageURL": "public/images/tracks/13-cloudtop-cruise.png"
+  },
+  {
+    "id": "bone-dry-dunes",
+    "name": "Bone Dry Dunes",
+    "imageURL": "public/images/tracks/14-bone-dry-dunes.png"
+  },
+  {
+    "id": "bowsers-castle",
+    "name": "Bowser's Castle",
+    "imageURL": "public/images/tracks/15-bowsers-castle.png"
+  },
+  {
+    "id": "rainbow-road",
+    "name": "Rainbow Road",
+    "imageURL": "public/images/tracks/16-rainbow-road.png"
+  },
+  {
+    "id": "moo-moo-meadows-wii",
+    "name": "Moo Moo Meadows (Wii)",
+    "imageURL": "public/images/tracks/17-moo-moo-meadows-wii.png"
+  },
+  {
+    "id": "mario-circuit-gba",
+    "name": "Mario Circuit (GBA)",
+    "imageURL": "public/images/tracks/18-mario-circuit-gba.png"
+  },
+  {
+    "id": "cheep-cheep-beach-ds",
+    "name": "Cheep Cheep Beach (DS)",
+    "imageURL": "public/images/tracks/19-cheep-cheep-beach-ds.png"
+  },
+  {
+    "id": "toads-turnpike-n64",
+    "name": "Toad's Turnpike (N64)",
+    "imageURL": "public/images/tracks/20-toads-turnpike-n64.png"
+  },
+  {
+    "id": "dry-dry-desert-gcn",
+    "name": "Dry Dry Desert (GCN)",
+    "imageURL": "public/images/tracks/21-dry-dry-desert-gcn.png"
+  },
+  {
+    "id": "donut-plains-3-snes",
+    "name": "Donut Plains 3 (SNES)",
+    "imageURL": "public/images/tracks/22-donut-plains-3-snes.png"
+  },
+  {
+    "id": "royal-raceway-n64",
+    "name": "Royal Raceway (N64)",
+    "imageURL": "public/images/tracks/23-royal-raceway-n64.png"
+  },
+  {
+    "id": "dk-jungle-3ds",
+    "name": "DK Jungle (3DS)",
+    "imageURL": "public/images/tracks/24-dk-jungle-3ds.png"
+  },
+  {
+    "id": "wario-stadium-ds",
+    "name": "Wario Stadium (DS)",
+    "imageURL": "public/images/tracks/25-wario-stadium-ds.png"
+  },
+  {
+    "id": "sherbet-land-gcn",
+    "name": "Sherbet Land (GCN)",
+    "imageURL": "public/images/tracks/26-sherbet-land-gcn.png"
+  },
+  {
+    "id": "music-park-3ds",
+    "name": "Music Park (3DS)",
+    "imageURL": "public/images/tracks/27-music-park-3ds.png"
+  },
+  {
+    "id": "yoshi-valley-n64",
+    "name": "Yoshi Valley (N64)",
+    "imageURL": "public/images/tracks/28-yoshi-valley-n64.png"
+  },
+  {
+    "id": "tick-tock-clock-ds",
+    "name": "Tick-Tock Clock (DS)",
+    "imageURL": "public/images/tracks/29-tick-tock-clock-ds.png"
+  },
+  {
+    "id": "piranha-plant-slide-3ds",
+    "name": "Piranha Plant Slide (3DS)",
+    "imageURL": "public/images/tracks/30-piranha-plant-slide-3ds.png"
+  },
+  {
+    "id": "grumble-volcano-wii",
+    "name": "Grumble Volcano (Wii)",
+    "imageURL": "public/images/tracks/31-grumble-volcano-wii.png"
+  },
+  {
+    "id": "rainbow-road-n64",
+    "name": "Rainbow Road (N64)",
+    "imageURL": "public/images/tracks/32-rainbow-road-n64.png"
+  },
+  {
+    "id": "yoshi-circuit-gcn",
+    "name": "Yoshi Circuit GCN",
+    "imageURL": "public/images/tracks/33-yoshi-circuit-gcn.png"
+  },
+  {
+    "id": "excitebike-arena",
+    "name": "Excitebike Arena",
+    "imageURL": "public/images/tracks/34-excitebike-arena.png"
+  },
+  {
+    "id": "dragon-driftway",
+    "name": "Dragon Driftway",
+    "imageURL": "public/images/tracks/35-dragon-driftway.png"
+  },
+  {
+    "id": "mute-city",
+    "name": "Mute City",
+    "imageURL": "public/images/tracks/36-mute-city.png"
+  },
+  {
+    "id": "warios-gold-mine-wii",
+    "name": "Wario's Gold Mine Wii",
+    "imageURL": "public/images/tracks/37-warios-gold-mine-wii.png"
+  },
+  {
+    "id": "rainbow-road-snes",
+    "name": "Rainbow Road SNES",
+    "imageURL": "public/images/tracks/38-rainbow-road-snes.png"
+  },
+  {
+    "id": "ice-ice-outpost",
+    "name": "Ice Ice Outpost",
+    "imageURL": "public/images/tracks/39-ice-ice-outpost.png"
+  },
+  {
+    "id": "hyrule-circuit",
+    "name": "Hyrule Circuit",
+    "imageURL": "public/images/tracks/40-hyrule-circuit.png"
+  },
+  {
+    "id": "baby-park-gcn",
+    "name": "Baby Park GCN",
+    "imageURL": "public/images/tracks/41-baby-park-gcn.png"
+  },
+  {
+    "id": "cheese-land-gba",
+    "name": "Cheese Land GBA",
+    "imageURL": "public/images/tracks/42-cheese-land-gba.png"
+  },
+  {
+    "id": "wild-woods",
+    "name": "Wild Woods",
+    "imageURL": "public/images/tracks/43-wild-woods.png"
+  },
+  {
+    "id": "animal-crossing",
+    "name": "Animal Crossing",
+    "imageURL": "public/images/tracks/44-animal-crossing.png"
+  },
+  {
+    "id": "neo-bowser-city-3ds",
+    "name": "Neo Bowser City 3DS",
+    "imageURL": "public/images/tracks/45-neo-bowser-city-3ds.png"
+  },
+  {
+    "id": "ribbon-road-gba",
+    "name": "Ribbon Road GBA",
+    "imageURL": "public/images/tracks/46-ribbon-road-gba.png"
+  },
+  {
+    "id": "super-bell-subway",
+    "name": "Super Bell Subway",
+    "imageURL": "public/images/tracks/47-super-bell-subway.png"
+  },
+  {
+    "id": "big-blue",
+    "name": "Big Blue",
+    "imageURL": "public/images/tracks/48-big-blue.png"
+  },
+  {
+    "id": "paris-promenade-tour",
+    "name": "Paris Promenade (Tour)",
+    "imageURL": "public/images/tracks/49-paris-promenade-tour.png"
+  },
+  {
+    "id": "toad-circuit-3ds",
+    "name": "Toad Circuit (3ds)",
+    "imageURL": "public/images/tracks/50-toad-circuit-3ds.png"
+  },
+  {
+    "id": "choco-mountain-n64",
+    "name": "Choco Mountain (n64)",
+    "imageURL": "public/images/tracks/51-choco-mountain-n64.png"
+  },
+  {
+    "id": "coconut-hall-wii",
+    "name": "Coconut Hall (Wii)",
+    "imageURL": "public/images/tracks/52-coconut-hall-wii.png"
+  },
+  {
+    "id": "tokyo-blur-tour",
+    "name": "Tokyo Blur (Tour)",
+    "imageURL": "public/images/tracks/53-tokyo-blur-tour.png"
+  },
+  {
+    "id": "shroom-ridge-ds",
+    "name": "Shroom Ridge (DS)",
+    "imageURL": "public/images/tracks/54-shroom-ridge-ds.png"
+  },
+  {
+    "id": "sky-garden-gba",
+    "name": "Sky Garden (gba)",
+    "imageURL": "public/images/tracks/55-sky-garden-gba.png"
+  },
+  {
+    "id": "ninja-hideaway-tour",
+    "name": "Ninja Hideaway (Tour)",
+    "imageURL": "public/images/tracks/56-ninja-hideaway-tour.png"
+  },
+  {
+    "id": "new-york-minute-tour",
+    "name": "New York Minute (Tour)",
+    "imageURL": "public/images/tracks/57-new-york-minute-tour.png"
+  },
+  {
+    "id": "mario-circuit-3-snes",
+    "name": "Mario Circuit 3 (snes)",
+    "imageURL": "public/images/tracks/58-mario-circuit-3-snes.png"
+  },
+  {
+    "id": "kalimari-desert-n64",
+    "name": "Kalimari Desert (n64)",
+    "imageURL": "public/images/tracks/59-kalimari-desert-n64.png"
+  },
+  {
+    "id": "waluigi-pinball-ds",
+    "name": "Waluigi Pinball (DS)",
+    "imageURL": "public/images/tracks/60-waluigi-pinball-ds.png"
+  },
+  {
+    "id": "sydney-sprint-tour",
+    "name": "Sydney Sprint (Tour)",
+    "imageURL": "public/images/tracks/61-sydney-sprint-tour.png"
+  },
+  {
+    "id": "snow-land-gba",
+    "name": "Snow Land (GBA)",
+    "imageURL": "public/images/tracks/62-snow-land-gba.png"
+  },
+  {
+    "id": "mushroom-gorge-wii",
+    "name": "Mushroom Gorge (Wii)",
+    "imageURL": "public/images/tracks/63-mushroom-gorge-wii.png"
+  },
+  {
+    "id": "sky-high-sundae-tour",
+    "name": "Sky-High Sundae (Tour)",
+    "imageURL": "public/images/tracks/64-sky-high-sundae-tour.png"
+  },
+  {
+    "id": "london-loop-tour",
+    "name": "London Loop (Tour)",
+    "imageURL": "public/images/tracks/65-london-loop-tour.png"
+  },
+  {
+    "id": "boo-lake-gba",
+    "name": "Boo Lake (gba)",
+    "imageURL": "public/images/tracks/66-boo-lake-gba.png"
+  },
+  {
+    "id": "maple-treeway-wii",
+    "name": "Maple Treeway (Wii)",
+    "imageURL": "public/images/tracks/67-maple-treeway-wii.png"
+  },
+  {
+    "id": "rock-rock-mountain-3ds",
+    "name": "Rock Rock Mountain (3ds)",
+    "imageURL": "public/images/tracks/68-rock-rock-mountain-3ds.png"
+  },
+  {
+    "id": "rainbow-road-3ds",
+    "name": "Rainbow Road (3ds)",
+    "imageURL": "public/images/tracks/69-rainbow-road-3ds.png"
+  },
+  {
+    "id": "merry-mountain-tour",
+    "name": "Merry Mountain (Tour)",
+    "imageURL": "public/images/tracks/70-merry-mountain-tour.png"
+  },
+  {
+    "id": "peach-gardens-ds",
+    "name": "Peach Gardens (DS)",
+    "imageURL": "public/images/tracks/71-peach-gardens-ds.png"
+  },
+  {
+    "id": "berlin-byways-tour",
+    "name": "Berlin Byways (Tour)",
+    "imageURL": "public/images/tracks/72-berlin-byways-tour.png"
+  },
+  {
+    "id": "amsterdam-drift-tour",
+    "name": "Amsterdam Drift (Tour)",
+    "imageURL": "public/images/tracks/73-amsterdam-drift-tour.png"
+  },
+  {
+    "id": "riverside-park-gba",
+    "name": "Riverside Park (gba)",
+    "imageURL": "public/images/tracks/74-riverside-park-gba.png"
+  },
+  {
+    "id": "dk-summit-wii",
+    "name": "DK Summit (Wii)",
+    "imageURL": "public/images/tracks/75-dk-summit-wii.png"
+  },
+  {
+    "id": "yoshis-island",
+    "name": "Yoshi's Island",
+    "imageURL": "public/images/tracks/76-yoshis-island.png"
+  },
+  {
+    "id": "bangkok-rush-tour",
+    "name": "Bangkok Rush (Tour)",
+    "imageURL": "public/images/tracks/77-bangkok-rush-tour.png"
+  },
+  {
+    "id": "mario-circuit-ds",
+    "name": "Mario Circuit (DS)",
+    "imageURL": "public/images/tracks/78-mario-circuit-ds.png"
+  },
+  {
+    "id": "waluigi-stadium-gcn",
+    "name": "Waluigi Stadium (gcn)",
+    "imageURL": "public/images/tracks/79-waluigi-stadium-gcn.png"
+  },
+  {
+    "id": "singapore-speedway-tour",
+    "name": "Singapore Speedway (Tour)",
+    "imageURL": "public/images/tracks/80-singapore-speedway-tour.png"
+  },
+  {
+    "id": "athens-dash-tour",
+    "name": "Athens Dash (Tour)",
+    "imageURL": "public/images/tracks/81-athens-dash-tour.png"
+  },
+  {
+    "id": "daisy-cruiser-gcn",
+    "name": "Daisy Cruiser (gcn)",
+    "imageURL": "public/images/tracks/82-daisy-cruiser-gcn.png"
+  },
+  {
+    "id": "moonview-highway-wii",
+    "name": "Moonview Highway (Wii)",
+    "imageURL": "public/images/tracks/83-moonview-highway-wii.png"
+  },
+  {
+    "id": "squeaky-clean-sprint",
+    "name": "Squeaky Clean Sprint",
+    "imageURL": "public/images/tracks/84-squeaky-clean-sprint.png"
+  },
+  {
+    "id": "los-angeles-lap-tour",
+    "name": "Los Angeles Lap (Tour)",
+    "imageURL": "public/images/tracks/85-los-angeles-lap-tour.png"
+  },
+  {
+    "id": "sunset-wilds-gba",
+    "name": "Sunset Wilds (gba)",
+    "imageURL": "public/images/tracks/86-sunset-wilds-gba.png"
+  },
+  {
+    "id": "koopa-cape-wii",
+    "name": "Koopa Cape (Wii)",
+    "imageURL": "public/images/tracks/87-koopa-cape-wii.png"
+  },
+  {
+    "id": "vancouver-velocity-tour",
+    "name": "Vancouver Velocity (Tour)",
+    "imageURL": "public/images/tracks/88-vancouver-velocity-tour.png"
   }
 ]
